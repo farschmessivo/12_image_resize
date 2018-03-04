@@ -21,7 +21,7 @@ The program takes such arguments:
 # Example input
 
 ```
-$ python3 image_resize.py zen.png --height 500 --width 400 --output  --input zen_resize.png
+$ python3 image_resize.py zen.png --height 500 --width 400 -o zen_resize.png
 ```
 
 # Project Goals
