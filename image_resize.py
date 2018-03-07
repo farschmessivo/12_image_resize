@@ -87,7 +87,7 @@ if __name__ == '__main__':
     original_size = original_image.size
     original_width, original_height = original_image.size
     output_image = args.output
-    if args.output.endswith('/') and (not os.path.exists(args.output)):
+    if args.output.endswith('/') and not os.path.exists(args.output):
         raise parser.error('Folder doesnt exist')
 
     if args.scale and (args.width or args.height):
